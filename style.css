@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px;
+}
+.btn-success:hover
+{
+    background-color: rgba(103, 255, 172, 0.842);
+}
+canvas
+{
+  animation-name:Clown-nose ;  
+  animation-duration:6s;
+  animation-iteration-count: infinite;
+}
+@keyframes Clown-nose
+{
+    from{box-shadow: 1px  1px  38px  red;}
+    to{box-shadow: 1px  1px  38px  yellow;}
+}
